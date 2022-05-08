@@ -1,0 +1,5 @@
+https://blog.csdn.net/weixin_43108793/article/details/118306045
+Git Clone错误解决：GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+apt-get install gnutls-bin
+git config --global http.sslVerify false
+git config --global http.postBuffer 1048576000
