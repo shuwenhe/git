@@ -1,0 +1,9 @@
+View current branches
+git branch
+View all branches
+git branch -a
+// 删除本地分支
+git branch -d dev
+// 删除远程分支
+git push origin --delete dev
+git branch -D shuwen

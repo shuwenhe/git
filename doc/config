@@ -1,0 +1,11 @@
+1. 
+查看自己的用户名和邮箱地址：
+　　$ git config user.name
+　　$ git config user.email
+2. 
+修改自己的用户名和邮箱地址：
+　　git config --global user.name "Shuwen He"
+　　git config --global user.email 1201220707@pku.edu.cn
+3.
+总让输入用户名及密码
+git config --global credential.helper store
