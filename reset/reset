@@ -1,3 +1,0 @@
-git reset --hard 6171724
-git push origin -f master
-git push origin -f dev
