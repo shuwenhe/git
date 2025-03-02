@@ -1,4 +1,4 @@
 .gitignore
-config.h
+cfg.h
 json/
 app/src/main/json
