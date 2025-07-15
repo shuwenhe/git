@@ -1,0 +1,16 @@
+git交替出现Failed to connect to github.com port 443 OpenSSL SSL_read: Connection was reset, errno 10054-爱代码爱编程
+https://icode.best/i/39137643681051
+https://blog.csdn.net/weixin_43945983/article/details/110882074
+https://blog.51cto.com/u_15326986/3328947
+Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
+git config http.postBuffer 524288000
+git config --global http.sslVerify "false"
+
+err-443
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+err-10054
+解除SSL验证
+git config --global http.sslVerify "false"
+git config http.postBuffer 524288000

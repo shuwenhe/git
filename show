@@ -1,0 +1,4 @@
+1. 查看最近3条日志
+git log -3 --stat
+2. 查看详细更改内容
+git show 5e3e25c2d54b0fdf0c68e9686df358b0ba26ef44

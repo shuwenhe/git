@@ -1,0 +1,2 @@
+switch remote dev branch
+git checkout -b dev origin/dev

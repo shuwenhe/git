@@ -1,0 +1,1 @@
+git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sort -nr -k 3 | head -n 10
